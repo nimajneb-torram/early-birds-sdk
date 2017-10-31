@@ -1,0 +1,5 @@
+default:
+    suites:
+        identify:
+            paths: [ %paths.base%/features/identify ]
+            contexts: [ IdentifyContext ]
